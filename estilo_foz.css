@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+body{
+	font-family: verdana,
+	sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #e6f9ff;
+	background-image: url("imagens/cataratas.jpg");
+	background-repeat: repeat-x;
+	line-height: 18px;
+}
+#estrutura{
+	width: 960px;
+	margin: 0 auto;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link{
+	color: #468966;	
+}
+a:visited{
+	color: #468966;
+}
+a:haver {
+	color: #a1b06a;
+}
+h1{
+	font-size: 34px;
+	color:#00ccff;
+	border-bottom: medium solid #468966;
+	line-height: 38px;
+	font-weight: bolder;
+}
+h2{
+	font-family: 'Spirax', cursive;
+	font-size: 22px;
+	color: #468966;
+	font-size: italic;
+	text-align: right; 
+}
+h3{ 
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #33ccff;
+}
+
+.menu{	
+	background-image: url("imagens/Bandeira2.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 145px;
+	padding-left: 0px;
+	padding-bottom: 08px;
+}
+.menu a{
+	font-size: 17px;
+}	
+.menu a:link {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #468966;
+	padding: 5px;
+
+}
+.menu a:visited {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #468966;
+	padding: 5px;
+}
+.menu a:hover {
+	color: #468966;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #00ccff;
+	padding: 5px;
+	transition: background-color .7s;
+}
+img{
+	border: 2px solid #468966;
+}
+.caixa_texto{
+	text-align: justify;
+	text-indent: 25px; 
+}
+table{
+	border: 2px solid #00ccff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+}
+caption{
+	font-weight: bolder;
+	color: #ffffff;
+	background-color: #2a2e24;
+	padding: 5px;
+}
+th {
+	color: #ffffff;
+	background-color: #468966;
+	text-align: left;
+	padding: 5px;  
+}
+td{
+	background-color: #468966;
+	padding: 5px; 
+	border-top: 3px solid #468966;
+}
+
+p{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	text-align: justify;
+}
+footer{
+	text-align: center;
+}
+.historia div{
+	width: 100%;
+	margin: auto;
+}
+.historia div img{
+	width: 100%;	
+}
+.fotos, .gastronomia, .hospedagem, .historia, .inicio, .parque, .local{
+	width: 75%;
+	margin: auto;
+}
+.fotos img, .gastronomia img, .hospedagem img{
+	width: 345px;
+	height: 269px;
+}
+.contato{
+	width: 75%;
+	margin: auto;
+}
+.contato label {
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+    color: #468966;
+    display: block;
+    margin-top: 20px;
+}
+@media screen and (max-device-width: 450px) {
+	body{
+	background-image: url(imagens/cataratas2.jpg);
+	background-repeat: repeat-x;
+	}
+	.menu{	
+	width: 291px;	
+	margin: 0 auto;
+	}
+	.menu a{
+	width: 285px;
+	height: 23px;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
+	}
+	.fotos, .gastronomia, .hospedagem, .historia, .inicio, .parque, .local{
+	width: 100%;
+	margin: auto;
+	}
+	.fotos img, .gastronomia img, .hospedagem img{
+	width: 465px;
+	height: 389px;
+}
+
+}	
